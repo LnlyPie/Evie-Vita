@@ -146,11 +146,10 @@ mouse_cursor/custom_image="res://arrow.png"
 mouse_cursor/tooltip_position_offset=Vector2( 0, 0 )
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
-<<<<<<<HEADwindow/size/width=960
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/CheatCoder/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/gamejolt_api/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/localization_editor/plugin.cfg", "res://addons/onscreenkeyboard/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/CheatCoder/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/localization_editor/plugin.cfg", "res://addons/onscreenkeyboard/plugin.cfg" )
 
 [gdnative]
 
@@ -293,6 +292,10 @@ translations=PoolStringArray( "res://localization/localizations.en.translation",
 translation_remaps={
 "res://sprites/gui/mods/mods.png": [ "res://sprites/gui/mods/mods.png:en", "res://sprites/locale_remaps/pl/gui/mods/mods.png:pl", "res://sprites/gui/mods/mods.png:de" ]
 }
+
+[mono]
+
+project/assembly_name="Evie"
 
 [physics]
 
