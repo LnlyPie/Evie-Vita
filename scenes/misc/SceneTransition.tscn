@@ -91,7 +91,7 @@ script = ExtResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_scale = Vector2( 1e-05, 1e-05 )
-rect_pivot_offset = Vector2( 960, 512 )
+rect_pivot_offset = Vector2( 480, 272 )
 mouse_filter = 2
 color = Color( 0, 0, 0, 0 )
 

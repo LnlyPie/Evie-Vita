@@ -106,10 +106,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5, 0.7 ),
+"times": PoolRealArray( 0, 0.6, 0.8 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( 736, -88 ), Vector2( 736, 520 ), Vector2( 736, 496 ) ]
+"values": [ Vector2( 256, -88 ), Vector2( 256, 257 ), Vector2( 256, 235 ) ]
 }
 
 [sub_resource type="Animation" id=5]
@@ -316,7 +316,7 @@ margin_left = 4.0
 margin_right = 44.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-texture = ExtResource( 8 )
+texture = ExtResource( 7 )
 expand = true
 script = ExtResource( 9 )
 path = "ps3/cross"
@@ -334,7 +334,7 @@ margin_left = 88.0
 margin_right = 128.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-texture = ExtResource( 7 )
+texture = ExtResource( 8 )
 expand = true
 script = ExtResource( 9 )
 path = "ps3/circle"
@@ -390,13 +390,12 @@ max_text_lines = 3
 [node name="Settings" parent="." instance=ExtResource( 4 )]
 
 [node name="QuitPanel" type="Panel" parent="."]
-visible = false
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = 736.0
 margin_top = -88.0
 margin_right = 1184.0
-margin_bottom = -0.00012207
+margin_bottom = -6.10352e-05
 custom_styles/panel = SubResource( 3 )
 __meta__ = {
 "_edit_group_": true
